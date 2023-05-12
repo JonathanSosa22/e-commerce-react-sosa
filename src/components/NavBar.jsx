@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,18 +22,18 @@ const NavBar = () => {
   return (
     <nav className={darkMode ? "navbar-dark" : "navbar-light"}>
       <div className="navbar-left">
-        <a href="/" className="navbar-brand">
+        <a as={Link} to="/" className="navbar-brand">
           E-Commerce
         </a>
       </div>
       <div className="navbar-right">
-        <a href="/login" className="navbar-icon">
+        <a as={Link} to="/login" className="navbar-icon">
           <i className="fas fa-user"></i>
         </a>
-        <a href="/purchases" className="navbar-icon">
+        <a as={Link} to="/purchases" className="navbar-icon">
           <i className="fas fa-shopping-bag"></i>
         </a>
-        <a href="/" className="navbar-icon">
+        <a as={Link} to="/" className="navbar-icon">
           <i className="fas fa-shopping-cart"></i>
         </a>
         <button
