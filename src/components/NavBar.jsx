@@ -22,20 +22,20 @@ const NavBar = () => {
   return (
     <nav className={darkMode ? "navbar-dark" : "navbar-light"}>
       <div className="navbar-left">
-        <a as={Link} to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand">
           E-Commerce
-        </a>
+        </Link>
       </div>
       <div className="navbar-right">
-        <a as={Link} to="/login" className="navbar-icon">
+        <Link to="/login" className="navbar-icon">
           <i className="fas fa-user"></i>
-        </a>
-        <a as={Link} to="/purchases" className="navbar-icon">
+        </Link>
+        <Link to="/purchases" className="navbar-icon">
           <i className="fas fa-shopping-bag"></i>
-        </a>
-        <a as={Link} to="/" className="navbar-icon">
+        </Link>
+        <Link to="/" className="navbar-icon">
           <i className="fas fa-shopping-cart"></i>
-        </a>
+        </Link>
         <button
           className={darkMode ? "dark-mode-button" : "light-mode-button"}
           onClick={toggleDarkMode}
