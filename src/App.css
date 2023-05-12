@@ -169,15 +169,20 @@ nav {
 
 @media (max-width: 480px) {
   nav {
-    padding: 7px;
+    padding: 5px;
   }
   .navbar-brand {
-    font-size: 26px;
-    margin-right: 16px;
+    font-size: 22px;
+    margin-right: 14px;
   }
   .navbar-icon {
-    font-size: 27px;
-    margin-right: 22px;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  .dark-mode-button,
+  .light-mode-button {
+    padding: 4px 8px;
+    font-size: 15px;
   }
 }
 
