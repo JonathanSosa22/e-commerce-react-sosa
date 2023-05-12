@@ -167,6 +167,20 @@ nav {
   color: white;
 }
 
+@media (max-width: 480px) {
+  nav {
+    padding: 7px;
+  }
+  .navbar-brand {
+    font-size: 26px;
+    margin-right: 16px;
+  }
+  .navbar-icon {
+    font-size: 27px;
+    margin-right: 22px;
+  }
+}
+
 /* Modal */
 
 .carousel-container {
