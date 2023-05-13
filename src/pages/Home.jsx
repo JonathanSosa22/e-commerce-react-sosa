@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { getProductsThunk } from "../store/slices/products.slice";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -96,7 +97,9 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <button>See Detail</button>
+            <Link to={`/products/${productItem.id}`}>
+              <button>See Detail</button>
+            </Link>
           </div>
         </div>
       ))}
