@@ -222,7 +222,6 @@ nav {
   z-index: 1;
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
-  animation-delay: 1.7s;
 }
 
 .box::after {
@@ -243,7 +242,7 @@ nav {
   z-index: 1;
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
-  animation-delay: 4.7s;
+  animation-delay: -3s;
 }
 
 .borderLine {
@@ -270,7 +269,7 @@ nav {
   z-index: 1;
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
-  animation-delay: -3.3s;
+  animation-delay: -1.5s;
 }
 
 .borderLine::after {
@@ -291,7 +290,7 @@ nav {
   z-index: 1;
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
-  animation-delay: -6.6s;
+  animation-delay: -4.5s;
 }
 
 @keyframes animate {
