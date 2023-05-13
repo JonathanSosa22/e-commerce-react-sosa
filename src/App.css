@@ -204,6 +204,12 @@ nav {
   overflow: hidden;
 }
 
+@media (max-width: 480px) {
+  .box {
+    width: 95%;
+  }
+}
+
 .box::before {
   content: "";
   position: absolute;
@@ -324,6 +330,12 @@ nav {
   position: relative;
   width: 300px;
   margin-top: 35px;
+}
+
+@media (max-width: 480px) {
+  .box form .inputBox {
+    width: 100%;
+  }
 }
 
 .box form .inputBox input {
